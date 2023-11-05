@@ -16,7 +16,7 @@ nav ul{
     padding:10px;
 }
 nav ul li{
-    margin: 0 20px;
+    margin: 0px 20px;
 }
 .logo-text{
     font-size: 3em;
@@ -143,13 +143,10 @@ font-weight: 500;
     margin:10px 0;
     font-size: medium;
 }
-icon{
-    margin-top: 100px;
-}
 progress[value]{
     height:10px;
     width:350px;
--webkit-appearance: none;
+    appearance: none;
 }
 progress[value]::-webkit-progress-bar{
     background-color: grey;
@@ -175,8 +172,8 @@ hr{
 .input{
     line-height: 2em;
     width:350px;
-    border-radius:3px;
-    border-color:black;
+    border-radius:5px;
+    border-color:rgb(28, 24, 24);
     margin:20px 0;
 }
 #contact form{
